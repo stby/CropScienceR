@@ -1,17 +1,3 @@
----
-title: "Introduction to R for Crop Science"
-author: "Stephen Byrne"
-date: "19/7/2019"
-output:
-  html_document: default
-  pdf_document: default
-  word_document: default
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Introduction
   
   
@@ -158,7 +144,8 @@ RMarkdown is a format for writing reproducible, dynamic reports with R. It can b
 
 The following excellent resources are available to continue your learning:
 
-https://r4ds.had.co.nz 
+https://r4ds.had.co.nz  
+
 https://www.datacamp.com 
 
     
