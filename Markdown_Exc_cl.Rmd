@@ -1,0 +1,63 @@
+---
+title: "Markdown Excercise"
+author: "My Name"
+date: "6/8/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(gapminder)
+```
+
+## The Gapminder Data Set
+
+The structure of the gapminder data-set is as follows:
+
+```{r}
+
+
+```
+
+
+## The Life Expectancy across continents
+
+In 2002 the mean life expectancy for each continent is:
+
+```{r}
+
+
+```
+
+## Gross Domestic Product
+
+The 10 countries with the highest GDP per capita in 2007 are:
+
+```{r}
+
+
+```
+
+How does this compare to the 10 countries with the highest total GDP (gdpPercap multiplied by population) in 2007. These are:
+
+```{r}
+
+
+
+```
+
+
+## Relationship bewteen GDP per Capita and life Expectancy
+
+We can plot GDP Per cap against life expectancy for each year to better understand the relationship. 
+
+```{r pressure}
+
+
+
+```
+
+The **take-home message** from this plot is that:
+
+> There is a relationship between gdpPercap and life expectancy so that countries with lower gdpPercap have lower life expectancy.
